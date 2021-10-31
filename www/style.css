@@ -1,0 +1,62 @@
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt', cursive;
+}
+
+th {
+  letter-spacing: 3px;
+  color:purple;
+ 
+  
+}
+
+td {
+  letter-spacing: 2px;
+  color:black;
+  font-style:italic;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {background-color: #FFE4C4;}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th, td {
+  padding: 25px;
+}
+
+body {
+  background: url("C:\Users\Ben Romdhane\Desktop\img.jpg");
+}
